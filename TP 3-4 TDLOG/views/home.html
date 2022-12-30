@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="styles1.css">
+<head>
+ <meta charset="utf-8">
+ <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bataille navale</title>
+
+
+  <!--  Bootstrap css file  -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <!--  font awesome icons  -->
+  <link rel="stylesheet" href="./css/all.min.css">
+
+
+  <!--  Magnific Popup css file  -->
+  <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
+
+
+  <!--  Owl-carousel css file  -->
+  <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
+
+
+  <!--  custom css file  -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!--  Responsive css file  -->
+  <link rel="stylesheet" href="./css/responsive.css">
+
+</head>
+
+<body>
+<style>
+
+body {
+  background-image: url('./Images/gurre.jpg');
+  background-image: black;
+}
+
+</style>
+
+  <!--  ======================= Start Header Area ============================== -->
+
+  <header class="header_area">
+      <div class="main-menu">
+          <nav class="navbar navbar-expand-lg navbar-light">
+              <a class="navbar-brand" href="#"><img src="./Images/Navi.png" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <div class="mr-auto"></div>
+                  <ul class="navbar-nav">
+                      <li class="nav-item active">
+                          <a class="nav-link" href="home.html"><font size="+2"> Acceuil</font> <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="create_game.html"> <font size="+2">  Créervotrepartie</font></a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="insert_into_game.html"> <font size="+2">  Rejoindreunepartie</font></a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="manage_fleet.html"> <font size="+2"> Créervotreflotte</font> </a>
+                      </li>
+                      
+                      <li class="nav-item">
+                          <a class="nav-link" href="jouer.html">   <font size="+2"> Jouer</font></a>
+                      </li>
+
+                  </ul>
+              </div>
+          </nav>
+      </div>
+  </header>
+
+
+  <main class="site-main">
+
+
+      <section class="site-banner">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6 col-md-12 site-title">
+                      <h1 class="title-text text-uppercase"><br>Bataille Navale</h1>
+                      <h4 class="title-text text-uppercase"></h4>
+
+                  </div>
+                  <div class="col-lg-6 col-md-12 banner-image">
+                    
+                  </div>
+              </div>
+          </div>
+      </section>
+
+<style>
+  
+
+@import url(./fonts.css);
+
+
+
+@import url(./partials/_variables.css);
+
+
+@import url(./partials/_global.css);
+
+
+
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 1rem 0 2rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem ;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 10px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.9rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+
+
+.site-main .site-banner {
+    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 55%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-20px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+    color: black;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--roboto);
+    letter-spacing: 30px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+
+
+.site-main .brand-area{
+    padding: 1rem 3rem;
+    margin-bottom: 4rem;
+}
+
+.site-main .brand-area .first-row .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand{
+    border: 1px solid var(--border-color);
+    text-align: right;
+    padding: 0.6rem 0rem;
+    margin: .4rem 0;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform .4s ease;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand > img{
+    width: 50%;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover > img{
+    filter: brightness(0.15);
+}
+
+.site-main .brand-area .experience-area{
+    padding-left: 1rem;
+}
+
+.site-main .brand-area .experience-area span{
+    display: block;
+}
+
+.site-main .brand-area .experience-area .years-area{
+    background: url(../img/client-info-bg.png) no-repeat 45px 20px;
+    padding: 1rem 0;
+    width: 40rem;
+    height: 18rem;
+    padding-left: 4rem;
+    position: relative;
+}
+
+.site-main .brand-area .experience-area .bg-panel{
+    position: absolute;
+    left: -160px; top: 0%;
+    background: #e029290a;
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+    z-index: -1;
+}
+
+.site-main .brand-area .experience-area .years-area .years{
+    font: normal bold 84px/40px var(--roboto);
+    color: var(--primary-color2);
+    z-index: 2;
+}
+
+.site-main .brand-area .experience-area .years-area h2 > span{
+    font: normal 600 22px/30px var(--roboto);
+}
+
+.site-main .brand-area .experience-area .call-area{
+    padding-left: 10rem;
+}
+
+.site-main .services-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+}
+
+.site-main > .services-area .services{
+    background: rgba(13, 168, 207, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+
+
+
+
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--roboto);
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #ff0101);
+}
+
+
+
+.site-main .about-area .about-title p{
+    padding: 1rem 7rem;
+}
+
+.site-main .about-area .client{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+
+.site-main .about-area .client .client-img{
+    padding: 2rem;
+}
+
+.site-main .about-area .client .about-client{
+    padding-top: 2rem;
+}
+
+.site-main .about-area .client .about-client h4{
+    font: normal 500 21px/ 20px var(--roboto);
+}
+
+.site-main .about-area .client .about-client p{
+    font-size: 14px;
+}
+
+.site-main .about-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span{
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}
+
+
+
+
+
+.site-main .subscribe-us-area .subscribe{
+    background: url(../img/subscribe-bg.png) no-repeat;
+    padding: 10rem 0;
+    margin: 3rem auto;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title h4{
+    font: normal 700 30px/ 30px var(--roboto);
+    color: rgb(48, 21, 21);
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title p{
+    color: rgb(86, 32, 32);
+    padding: 1rem 4rem;
+}
+
+</style>
+<center>
+<p><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br><br> <font size="+6"><b>WAFAA ZILAOUI</b></font></p>
+</center>
